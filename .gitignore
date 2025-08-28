@@ -1,0 +1,16 @@
+# Rust
+target/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test files
+*.pdf
+*.docx
+*.csv
+*.txt
+*.sh
