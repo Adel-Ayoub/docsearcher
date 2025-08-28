@@ -1,0 +1,31 @@
+[package]
+name = "docsearcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+ratatui = "0.24"
+crossterm = "0.27"
+tui-input = "0.4"
+console = "0.15"
+indicatif = "0.17"
+dialoguer = "0.11"
+colored = "2.0"
+pdf-extract = "0.6"
+docx = "1.1"
+roxmltree = "0.18"
+zip = "0.6"
+walkdir = "2.3"
+tokio = { version = "1.0", features = ["full"] }
+rayon = "1.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+glob = "0.3"
+nom = "7.1"
+
+[dev-dependencies]
+tempfile = "3.8"
+
+
